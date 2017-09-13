@@ -6,6 +6,8 @@ import { ACME_CLOUDPROVIDER } from './cloudprovider/cloudprovider.module';
 import { ACME_HELP_OVERRIDES } from './help/help.overrides';
 import { EXCEPTION_HANDLER } from './exceptionHandler.delegate';
 
+import '@spinnaker/core/src/styleguide/src/styles/app.css';
+
 // load all templates into the $templateCache
 const templates = require.context('./', true, /\.html$/);
 templates.keys().forEach(function (key) {
