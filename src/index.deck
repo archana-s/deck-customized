@@ -66,7 +66,7 @@
     }
   </style>
 </head>
-<body>
+<body class="acme">
   <!-- Sample loading styles -->
   <div ng-style="{display: authenticating ? '' : 'none'}" class="loading-placeholder">
     <svg version="1.1" x="0px" y="0px" width="252px" height="262.8px" viewBox="0 0 252 262.8" enable-background="new 0 0 252 262.8">
